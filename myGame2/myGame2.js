@@ -133,7 +133,7 @@ game_state.main.prototype = {
         //This shows the hitbox if you want to see how big it is
         //game.debug.body(this.player);
         
-        if (score >= 20) {
+        if (score >= 95) {
             game.add.Text = (450, 250, 'You rescued Dokin-chan and Horrorman\n and beat the evil Baikinman!!\n So...in technicallity, I guess you win!!', {
                 fontSize: '64px',
                 fill: '#000000'

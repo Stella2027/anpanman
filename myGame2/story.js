@@ -29,7 +29,7 @@ game_state.story.prototype = {
        setTimeout(function(){_this.instrText.text = 'Unable to contain himself, Anpanman gleefully ran \nthrough the forest by which he was standing, right into a \ntrap that Baikinman had set.'}, 36000);
        setTimeout(function(){_this.instrText.text = 'Now it is time for you to come into the picture. \nAnpanman is in a bit of a pickle, so you must take \ncontrol from here.'}, 40000);
        setTimeout(function(){_this.instrText.text = 'Use the arrow keys to control Anmpanman and his \nmovements. Dodge the falling Baikinman soul bombs, but\n collect the falling Dokin-chan and Horrorman \nones because since the two villans were \nactually good at heart, the bombs give you \nbarrier points that increase your score.'}, 44000);
-       setTimeout(function(){_this.instrText.text = 'For every 25 points you earn, part of a barrier \nwill appear that terminates all of the bombs.'}, 52000);    
+       setTimeout(function(){_this.instrText.text = 'For every 25 points you earn, part of a barrier \nwill appear that terminates all of the bombs. As the \nbarrier gets longer, the amount of barriwe points \n you nees will lessen.'}, 52000);    
        setTimeout(function(){_this.instrText.text = 'Once the entire barrier is there, the souls from \nthe bombs will be collected and will be safely moved \nto separate locations.'}, 56000);
        setTimeout(function(){_this.instrText.text = 'If you are skeptical of any of this being possible,\nknow that I do not care and that you should press \nenter to start.'}, 60000);
             
