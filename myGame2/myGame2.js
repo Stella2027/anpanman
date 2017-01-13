@@ -132,6 +132,13 @@ game_state.main.prototype = {
 
         //This shows the hitbox if you want to see how big it is
         //game.debug.body(this.player);
+        
+        if (score >= 20) {
+            game.add.Text = (450, 250, 'You rescued Dokin-chan and Horrorman\n and beat the evil Baikinman!!\n So...in technicallity, I guess you win!!', {
+                fontSize: '64px',
+                fill: '#000000'
+            });
+        }
 
     },
 
@@ -169,12 +176,7 @@ game_state.main.prototype = {
 
 
 
-        if (score >= 150) {
-            game.add.Text = (450, 250, 'You rescued Dokin-chan and Horrorman\n and beat the evil Baikinman!!\n In technicallity, I guess you win!!', {
-                fontSize: '64px',
-                fill: '#000000'
-            });
-        }
+        
 
 
     },
